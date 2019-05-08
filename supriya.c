@@ -1,13 +1,19 @@
-#include<stdio.h>
-void main()
+#include <stdio.h>
+int main()
 {
-    int firstNumber=10,secondNumber=20;
-    int sumOfTwoNumbers;
+    int i, j;
+    char input, alphabet = 'A';
 
-    sumOfTwoNumbers = firstNumber + secondNumber;
+    
+    for(i=1; i <= (5-'A'+1); ++i)
+    {
+        for(j=1;j<=i;++j)
+        {
+            printf("%c", alphabet);
+        }
+        ++alphabet;
 
-    // Displays sum      
-    printf("%d + %d = %d", firstNumber, secondNumber, sumOfTwoNumbers);
-
-    //return 0;
+        printf("\n");
+    }
+    return 0;
 }
