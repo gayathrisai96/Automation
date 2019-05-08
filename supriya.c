@@ -1,5 +1,5 @@
-#include <stdio.h>
-int main()
+#include<stdio.h>
+void main()
 {
     int firstNumber=10,secondNumber=20;
     int sumOfTwoNumbers;
@@ -9,5 +9,5 @@ int main()
     // Displays sum      
     printf("%d + %d = %d", firstNumber, secondNumber, sumOfTwoNumbers);
 
-    return 0;
+    //return 0;
 }
